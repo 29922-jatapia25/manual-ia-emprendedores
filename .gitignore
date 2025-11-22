@@ -1,0 +1,11 @@
+# No subir carpeta generada por Quarto
+_book/
+
+# No subir archivos generados
+*.pdf
+*.docx
+*.html
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
