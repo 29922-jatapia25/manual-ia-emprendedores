@@ -1,0 +1,41 @@
+{
+  "index.qmd": {
+    "index.html": "d45d3cc0"
+  },
+  "01_presentacion.qmd": {
+    "01_presentacion.html": "adc7b591"
+  },
+  "02_fundamentos.qmd": {
+    "02_fundamentos.html": "d4b2896d"
+  },
+  "03_herramientas.qmd": {
+    "03_herramientas.html": "1da6a62a"
+  },
+  "04_modelo_negocio.qmd": {
+    "04_modelo_negocio.html": "6ccccb64"
+  },
+  "05_marketing.qmd": {
+    "05_marketing.html": "4be025de"
+  },
+  "06_atencion_cliente.qmd": {
+    "06_atencion_cliente.html": "7b8cba79"
+  },
+  "07_gestion.qmd": {
+    "07_gestion.html": "a42dd878"
+  },
+  "08_etica.qmd": {
+    "08_etica.html": "8cbeda8e"
+  },
+  "09_talleres.qmd": {
+    "09_talleres.html": "5d325690"
+  },
+  "10_evidencias.qmd": {
+    "10_evidencias.html": "163d181d"
+  },
+  "11_conclusiones.qmd": {
+    "11_conclusiones.html": "edbd7170"
+  },
+  "anexos.qmd": {
+    "anexos.html": "3b810cda"
+  }
+}

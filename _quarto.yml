@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "Manual de Inteligencia Artificial para Emprendedores"
+  subtitle: "Guía práctica para potenciar negocios con herramientas de IA"
+  author: "Equipo de Vinculación – ESPE"
+  date: "2025"
+  chapters:
+    - index.qmd
+    - 01_presentacion.qmd
+    - 02_fundamentos.qmd
+    - 03_herramientas.qmd
+    - 04_modelo_negocio.qmd
+    - 05_marketing.qmd
+    - 06_atencion_cliente.qmd
+    - 07_gestion.qmd
+    - 08_etica.qmd
+    - 09_talleres.qmd
+    - 10_evidencias.qmd
+    - 11_conclusiones.qmd
+    - anexos.qmd
+
+format:
+  html:
+    theme:
+      light: minty     # Tema claro (verde, moderno)
+      dark: superhero  # Tema oscuro (azul, contrastado)
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+    smooth-scroll: true
+    css: styles.css    # Archivo de estilos personalizados
+  pdf:
+    mainfont: "Times New Roman"
+    fontsize: 11pt
+  docx:
+    toc: true

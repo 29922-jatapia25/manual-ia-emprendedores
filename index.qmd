@@ -1,0 +1,74 @@
+---
+title: "Manual de Inteligencia Artificial para Emprendedores"
+subtitle: "Guía práctica para potenciar negocios con herramientas de IA"
+author: 
+  - "Equipo de Vinculación – ESPE"
+date: "2025"
+format:
+  pdf: default
+  html: default
+  docx: default
+toc: false
+number-sections: false
+---
+
+# Presentación
+
+El presente **Manual de Inteligencia Artificial para Emprendedores** ha sido desarrollado como parte del proyecto de vinculación orientado a fortalecer las capacidades tecnológicas de pequeños y medianos negocios. En un entorno cada vez más competitivo, la Inteligencia Artificial (IA) se ha convertido en una herramienta estratégica capaz de automatizar tareas, generar contenido, mejorar la toma de decisiones y optimizar procesos internos.
+
+Este manual ha sido diseñado específicamente para emprendedores con poca o ninguna experiencia técnica, ofreciendo una guía **clara, práctica y orientada a resultados**, con ejemplos reales, pasos detallados y recomendaciones aplicables a diferentes tipos de negocios.
+
+# Objetivo del Manual
+
+El objetivo principal de este manual es **capacitar a emprendedores en el uso práctico de herramientas de Inteligencia Artificial**, de forma que puedan:
+
+- Optimizar la gestión de su negocio.  
+- Mejorar la calidad de su contenido digital.  
+- Incrementar la eficiencia de sus tareas diarias.  
+- Desarrollar estrategias de marketing más efectivas.  
+- Automatizar procesos básicos utilizando IA.  
+- Generar ideas innovadoras para productos y servicios.  
+
+# Público Objetivo
+
+Este manual está dirigido a:
+
+- Emprendedores y pequeños negocios.  
+- Estudiantes y profesionales que buscan aplicar IA en proyectos propios.  
+- Comerciantes, artesanos, productores y prestadores de servicios.  
+- Personas interesadas en aprender herramientas modernas de apoyo empresarial.  
+
+No se requieren conocimientos previos en programación o tecnología.
+
+# Alcance del Manual
+
+El contenido incluye:
+
+- Explicaciones fundamentales de IA.  
+- Herramientas prácticas para texto, imágenes y automatización.  
+- Métodos de aplicación real en marketing, ventas, atención al cliente y gestión interna.  
+- Talleres prácticos paso a paso.  
+- Guía de prompts optimizados para obtener mejores resultados.  
+- Material de apoyo y recursos adicionales para profundizar.
+
+El manual NO reemplaza asesoría legal, financiera o técnica especializada en áreas avanzadas; sin embargo, permite al emprendedor iniciar de forma segura en el uso inteligente de estas herramientas.
+
+# Cómo Usar Este Manual
+
+El manual se organiza por capítulos temáticos, permitiendo avanzar de manera progresiva:
+
+1. **Comprender lo básico** de inteligencia artificial.  
+2. **Conocer herramientas** accesibles para cualquier emprendedor.  
+3. **Aplicar IA en el diseño del negocio**, marketing y comunicación.  
+4. **Realizar talleres prácticos** guiados capítulo por capítulo.  
+5. **Registrar evidencias** de aprendizaje y resultados.  
+
+Se recomienda:
+
+- Practicar cada ejemplo al momento de leer.  
+- Guardar los prompts útiles para reutilizarlos.  
+- Implementar progresivamente los cambios en su negocio.  
+- Consultar los anexos y recursos adicionales para reforzar conocimientos.
+
+Este índice constituye la **portada y presentación oficial** del libro. Los siguientes capítulos desarrollan de forma detallada cada contenido.
+
