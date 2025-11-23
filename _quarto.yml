@@ -3,7 +3,6 @@ project:
 
 book:
   title: "Manual de Inteligencia Artificial para Emprendedores"
-  subtitle: "Guía práctica para potenciar negocios con herramientas de IA"
   author: "Equipo de Vinculación – ESPE"
   date: "2025"
   chapters:
@@ -23,17 +22,5 @@ book:
 
 format:
   html:
-    theme:
-      light: minty     # Tema claro (verde, moderno)
-      dark: superhero  # Tema oscuro (azul, contrastado)
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    code-copy: true
-    smooth-scroll: true
-    css: styles.css    # Archivo de estilos personalizados
-  pdf:
-    mainfont: "Times New Roman"
-    fontsize: 11pt
-  docx:
-    toc: true
+    theme: cosmo
+    css: styles.css
