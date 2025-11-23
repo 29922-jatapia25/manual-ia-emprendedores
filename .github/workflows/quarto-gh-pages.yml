@@ -8,15 +8,24 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write      # necesario para publicar en gh-pages
+      pages: write
+      id-token: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: stable
 
-      - name: Render book
+      - name: Render HTML book
         uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: html
 
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2

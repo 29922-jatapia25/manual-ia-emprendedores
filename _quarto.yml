@@ -22,5 +22,10 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: minty
+      dark: superhero
     css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
