@@ -1,34 +1,21 @@
 ---
 title: ""
-format:
-  html:
-    toc: false
-    number-sections: false
+format: html
+toc: false
+number-sections: false
 page-layout: full
 ---
 
-<!-- PORTADA REAL SIN QUE SE VEA COMO CÓDIGO -->
-<div class="cover-page">
-  <div class="cover-box">
+::: {.portada-ia}
 
-    <img src="img/logo.png" alt="Logo del proyecto" class="cover-logo" />
+# Manual de Inteligencia Artificial  
+para Emprendedores
 
-    <h1>Manual de Inteligencia Artificial<br>para Emprendedores</h1>
+### Guía práctica para crear, optimizar y escalar tu emprendimiento usando herramientas de IA generativa.
 
-    <p class="cover-subtitle">
-      Guía práctica para crear, optimizar y escalar tu emprendimiento usando herramientas de IA generativa.
-    </p>
+<br>
 
-    <div class="cover-tags">
-      <span>IA aplicada</span>
-      <span>Automatización</span>
-      <span>ChatGPT</span>
-      <span>Marketing Digital</span>
-      <span>Modelos de Negocio</span>
-    </div>
+**Equipo de Vinculación – ESPE**  
+2025
 
-    <p class="cover-author">Equipo de Vinculación – ESPE</p>
-    <p class="cover-year">2025</p>
-
-  </div>
-</div>
+:::
