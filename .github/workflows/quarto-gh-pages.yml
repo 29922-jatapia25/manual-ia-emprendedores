@@ -4,7 +4,6 @@ on:
   push:
     branches: [ "main" ]
 
-# Permisos necesarios para GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -24,8 +23,6 @@ jobs:
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: stable
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
