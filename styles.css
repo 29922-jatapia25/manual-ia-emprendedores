@@ -1,62 +1,206 @@
-/* Fuente general (solo HTML) */
-body {
-  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.6;
+/* ------------------------------
+   TIPOGRAFÍA GLOBAL
+--------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body, .nav-sidebar, .content, .book-page {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
-/* Título del libro en el menú lateral */
-.sidebar-title {
-  font-weight: 700;
-  letter-spacing: 0.03em;
+
+/* ------------------------------
+   PORTADA PROFESIONAL
+--------------------------------*/
+
+.cover-container {
+    min-height: 100vh;
+    width: 100%;
+    background:
+      linear-gradient(135deg, rgba(4,10,38,0.9), rgba(0,117,190,0.9)),
+      url("img/cover-bg.jpg") center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f5f7ff;
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
 
-/* Links del índice lateral */
-.sidebar nav a {
-  font-size: 0.95rem;
+.cover-logo {
+    width: 160px;
+    max-width: 35vw;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.4));
 }
 
-/* Títulos principales de capítulos */
+.cover-title {
+    font-size: clamp(2.4rem, 4vw, 3.4rem);
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.cover-subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-weight: 300;
+    max-width: 800px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.cover-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.cover-tags span {
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    border: 1px solid rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.08);
+}
+
+.cover-author,
+.cover-year {
+    font-size: 1rem;
+    margin: 2px 0;
+    opacity: 0.9;
+}
+
+/* En pantallas pequeñas que no se corte raro */
+@media (max-width: 600px) {
+    .cover-container {
+        padding: 24px 16px;
+    }
+}
+
+
+/* ------------------------------
+   MENÚ LATERAL (SIDEBAR IZQUIERDA)
+--------------------------------*/
+
+.nav-sidebar {
+    background: #040a26 !important;
+    color: #e0edff !important;
+}
+
+.nav-sidebar .sidebar-header {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.nav-sidebar .sidebar-title {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+.nav-sidebar .sidebar-item a {
+    color: #c0d6ff !important;
+    font-size: 0.92rem;
+}
+
+.nav-sidebar .sidebar-item a:hover {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.nav-sidebar .sidebar-item .active {
+    background: linear-gradient(90deg, #0075be, #00c6ff) !important;
+    color: #ffffff !important;
+}
+
+
+/* ------------------------------
+   ENCABEZADOS Y TEXTOS
+--------------------------------*/
+
+h1, h2, h3, h4 {
+    color: #04122e !important;
+    font-weight: 700;
+}
+
 h1 {
-  font-weight: 700;
-  margin-top: 1.8rem;
-  margin-bottom: 1rem;
+    border-bottom: 2px solid #e3efff;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
 }
 
-/* Subtítulos */
-h2, h3 {
-  font-weight: 600;
+p {
+    line-height: 1.6;
 }
 
-/* Párrafos un poco más anchos y cómodos */
-main p {
-  font-size: 1rem;
+
+/* ------------------------------
+   LINKS
+--------------------------------*/
+
+a {
+    color: #0075be;
 }
 
-/* Tablas más limpias */
+a:hover {
+    color: #004b80;
+}
+
+
+/* ------------------------------
+   TABLAS
+--------------------------------*/
+
 table {
-  border-radius: 6px;
-  overflow: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.06);
 }
 
-/* Resaltar notas importantes (callouts) */
+table th {
+    background: #04122e !important;
+    color: #ffffff;
+}
+
+table td, table th {
+    padding: 10px 12px;
+}
+
+
+/* ------------------------------
+   BLOQUES DE INFORMACIÓN
+--------------------------------*/
+
 .callout {
-  border-radius: 10px;
+    border-left: 5px solid #0075be !important;
+    background-color: #eef5ff !important;
 }
 
-.callout-tip {
-  border-left: 6px solid #20c997;
+.callout-title-container {
+    font-weight: 700;
 }
 
-.callout-warning {
-  border-left: 6px solid #ffc107;
+
+/* ------------------------------
+   CÓDIGO / PROMPTS
+--------------------------------*/
+
+pre, code {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
-/* Pequeño detalle en la parte superior de la página */
-.quarto-title-block .title {
-  letter-spacing: 0.03em;
+pre {
+    border-radius: 8px !important;
+    border: 1px solid #dde6ff !important;
 }
 
-/* Espacio extra entre secciones */
-section {
-  margin-bottom: 1.2rem;
+
+/* ------------------------------
+   MÁRGENES DEL CONTENIDO
+--------------------------------*/
+
+main.content {
+    padding-top: 1.5rem !important;
 }
