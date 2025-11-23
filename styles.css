@@ -4,134 +4,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
 body {
-    font-family: "Montserrat", system-ui, sans-serif !important;
-    line-height: 1.6;
+  font-family: "Montserrat", system-ui, sans-serif !important;
+  background: #f8fafc;           /* Fondo claro */
+  color: #0f172a;                /* Texto principal oscuro */
+  line-height: 1.6;
 }
 
 /* Encabezados */
 h1, h2, h3, h4 {
-    color: #0f172a;
-    font-weight: 700;
+  color: #0f172a;
+  font-weight: 700;
 }
 
 h1 {
-    border-bottom: 2px solid #e2e8f0;
-    padding-bottom: 0.35rem;
-    margin-bottom: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.35rem;
+  margin-bottom: 1rem;
 }
 
 /* Párrafos */
 p {
-    margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
+/* Enlaces */
+a {
+  color: #2563eb;
+}
+a:hover {
+  color: #1d4ed8;
+}
 
 /* ---------------------------------------------------
-   SIDEBAR (MENÚ LATERAL DEL LIBRO)
+   SIDEBAR / MENÚ LATERAL
 --------------------------------------------------- */
 
-.nav-sidebar {
-    background: #0f172a !important;
-    color: #e2e8f0 !important;
+#quarto-sidebar {
+  background: #0f172a !important;    /* Azul oscuro */
+  color: #e2e8f0 !important;
 }
 
-.nav-sidebar .sidebar-header {
-    border-bottom: 1px solid rgba(148, 163, 184, 0.4);
+/* Título del libro en el sidebar */
+#quarto-sidebar .sidebar-title {
+  color: #f9fafb !important;
+  font-weight: 700;
 }
 
-.nav-sidebar .sidebar-title {
-    color: #f8fafc !important;
-    font-weight: 700;
+/* Items del menú */
+#quarto-sidebar .sidebar-item .sidebar-link {
+  color: #cbd5ff !important;
+  font-size: 0.92rem;
 }
 
-.nav-sidebar .sidebar-item a {
-    color: #cbd5f5 !important;
-    font-size: 0.92rem;
+/* Hover y activo */
+#quarto-sidebar .sidebar-item .sidebar-link:hover,
+#quarto-sidebar .sidebar-item .sidebar-link.active {
+  background: linear-gradient(90deg, #22c55e, #2563eb) !important;
+  color: #ffffff !important;
 }
 
-.nav-sidebar .sidebar-item a:hover {
-    color: #ffffff !important;
-    font-weight: 600;
+/* Buscador del sidebar */
+#quarto-sidebar input[type="search"] {
+  background: #020617;
+  border: 1px solid #1e293b;
+  color: #e5e7eb;
 }
-
-.nav-sidebar .sidebar-item .active {
-    background: linear-gradient(90deg, #2563eb, #22c55e) !important;
-    color: #ffffff !important;
+#quarto-sidebar input[type="search"]::placeholder {
+  color: #9ca3af;
 }
-
 
 /* ---------------------------------------------------
    CONTENIDO PRINCIPAL
 --------------------------------------------------- */
 
-main.content {
-    padding-top: 1.5rem !important;
+main.content, #quarto-content {
+  padding-top: 1.5rem !important;
+  background: #f8fafc;
 }
 
-/* Enlaces */
-a {
-    color: #2563eb;
-}
-
-a:hover {
-    color: #1d4ed8;
-}
-
-
-/* ---------------------------------------------------
-   TABLAS
---------------------------------------------------- */
-
+/* Tablas */
 table {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(15, 23, 42, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(15, 23, 42, 0.06);
 }
-
 table th {
-    background: #0f172a !important;
-    color: #f9fafb;
+  background: #0f172a !important;
+  color: #f9fafb;
 }
-
 table td, table th {
-    padding: 10px 12px;
+  padding: 10px 12px;
 }
 
-
-/* ---------------------------------------------------
-   CALLOUTS (NOTAS, TIP, WARNING)
---------------------------------------------------- */
-
-.callout {
-    border-radius: 10px !important;
-}
+/* Callouts (notas, tips, warning) */
+.callout { border-radius: 10px !important; }
 
 .callout-note {
-    border-left: 5px solid #2563eb !important;
-    background: #eff6ff !important;
+  border-left: 5px solid #2563eb !important;
+  background: #eff6ff !important;
 }
-
 .callout-tip {
-    border-left: 5px solid #16a34a !important;
-    background: #ecfdf3 !important;
+  border-left: 5px solid #16a34a !important;
+  background: #ecfdf3 !important;
 }
-
 .callout-warning {
-    border-left: 5px solid #ea580c !important;
-    background: #fff7ed !important;
+  border-left: 5px solid #ea580c !important;
+  background: #fff7ed !important;
 }
 
-
-/* ---------------------------------------------------
-   CÓDIGO / BLOQUES
---------------------------------------------------- */
-
+/* Código */
 pre, code {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace !important;
 }
-
 pre {
-    border-radius: 8px !important;
-    border: 1px solid #e2e8f0 !important;
-    padding: 0.75rem 0.9rem !important;
+  border-radius: 8px !important;
+  border: 1px solid #e2e8f0 !important;
+  padding: 0.75rem 0.9rem !important;
 }
