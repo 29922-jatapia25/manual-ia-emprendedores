@@ -6,7 +6,6 @@ book:
   author: "Equipo de Vinculación – ESPE"
   date: "2025"
   chapters:
-    - cover.qmd
     - index.qmd
     - 01_presentacion.qmd
     - 02_fundamentos.qmd
