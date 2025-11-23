@@ -234,3 +234,26 @@ code {
 .pagination a:hover {
   background: #1d4ed8 !important;
 }
+
+/* Evitar hover, subrayado, cursor y colores del título original */
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .sidebar-title a {
+  font-size: 0 !important;      /* oculta el texto original */
+  color: transparent !important; /* oculta color */
+  text-decoration: none !important;
+  cursor: default !important;    /* no se convierte en mano */
+  pointer-events: none !important; /* desactiva el enlace original */
+}
+
+/* Insertar título nuevo */
+#quarto-sidebar .sidebar-title::before {
+  content: "Manual IA";          /* <-- Cambia aquí si quieres otro nombre */
+  color: #f8fafc;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none !important; /* no recibe hover */
+}
