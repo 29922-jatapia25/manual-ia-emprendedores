@@ -23,7 +23,6 @@ book:
 format:
   html:
     theme:
-      light: minty
       dark: superhero
     css: styles.css
     toc: true
