@@ -14,12 +14,11 @@ body {
 /* ---------------------------------------------------
    CONTENEDOR GENERAL Y PÁGINA
 --------------------------------------------------- */
-
 #quarto-content {
   background: #f3f4f6 !important;
 }
 
-/* Contenedor principal del contenido */
+/* Tarjeta del contenido principal */
 main.content {
   background: #ffffff;
   padding: 3rem 3.5rem !important;
@@ -32,7 +31,6 @@ main.content {
 /* ---------------------------------------------------
    ENCABEZADOS
 --------------------------------------------------- */
-
 h1, h2, h3, h4 {
   color: #0f172a;
   font-weight: 700;
@@ -79,41 +77,51 @@ a:hover {
 #quarto-sidebar {
   background: #0f172a !important;
   border-right: 1px solid #1e293b;
-  width: 270px !important;       /* Más ancho: evita cortes */
-  height: auto !important;
-  max-height: none !important;
-  overflow: visible !important;  /* Quita scroll interno */
+  width: 270px !important;
+  overflow-y: auto !important; /* scroll si es necesario */
 }
 
-/* contenedor interno */
-#quarto-sidebar .sidebar,
-#quarto-sidebar .sidebar-menu-container {
-  height: auto !important;
-  max-height: none !important;
-  overflow: visible !important;
+/* Ocultar NUMERACIÓN de capítulos del menú */
+#quarto-sidebar .chapter-number {
+  display: none !important;
 }
 
-/* Ocultar completamente scrollbar interno */
-#quarto-sidebar,
-#quarto-sidebar * {
-  scrollbar-width: none !important;
+/* Ocultar scroll visible del menú */
+#quarto-sidebar {
+  scrollbar-width: none !important; /* Firefox */
 }
-#quarto-sidebar::-webkit-scrollbar,
-#quarto-sidebar *::-webkit-scrollbar {
+#quarto-sidebar::-webkit-scrollbar {
   width: 0 !important;
-  height: 0 !important;
+  height: 0 !important; /* Chrome/Edge */
 }
 
-/* Título del libro */
+/* ---------------------------------------------------
+   TÍTULO PERSONALIZADO DEL SIDEBAR
+--------------------------------------------------- */
+
+/* Oculto el texto original */
 #quarto-sidebar .sidebar-title {
-  padding: 1.5rem 1rem;
+  color: transparent !important;
+  position: relative;
+  height: auto !important;
+}
+
+/* Inserto mi propio título */
+#quarto-sidebar .sidebar-title::before {
+  content: "Manual IA";  /* <-- cambia el texto si quieres */
+  color: #f8fafc;
+  position: absolute;
+  left: 0;
+  top: 0;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #f8fafc !important;
   line-height: 1.2;
+  white-space: normal;
 }
 
-/* Ítems del menú */
+/* ---------------------------------------------------
+   ÍTEMS DEL MENÚ
+--------------------------------------------------- */
 #quarto-sidebar .sidebar-item .sidebar-link {
   color: #cbd5f4 !important;
   font-size: 0.95rem;
@@ -121,23 +129,38 @@ a:hover {
   border-radius: 6px;
 }
 
-/* Estado activo y hover */
+/* Activo / hover */
 #quarto-sidebar .sidebar-item .sidebar-link:hover,
 #quarto-sidebar .sidebar-item .sidebar-link.active {
   background: linear-gradient(90deg, #1e40af, #22c55e) !important;
   color: #ffffff !important;
 }
 
-/* Buscador */
-#quarto-sidebar input[type="search"] {
-  background: #1e293b;
-  border: 1px solid #334155;
-  color: #e5e7eb;
-  margin: 0 1rem;
+/* ---------------------------------------------------
+   BARRA DE BÚSQUEDA DEL SIDEBAR
+--------------------------------------------------- */
+#quarto-sidebar .sidebar-search {
+  padding: 0 1rem 1rem;
 }
 
-#quarto-sidebar input::placeholder {
-  color: #94a3b8;
+#quarto-sidebar .sidebar-search input[type="search"] {
+  width: 100% !important;
+  border-radius: 999px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  color: #e5e7eb;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+#quarto-sidebar .sidebar-search input[type="search"]::placeholder {
+  color: #9ca3af;
+}
+
+#quarto-sidebar .sidebar-search input[type="search"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #22c55e;
+  border-color: #22c55e;
 }
 
 /* ---------------------------------------------------
@@ -184,9 +207,8 @@ table td {
 }
 
 /* ---------------------------------------------------
-   CÓDIGO
+   BLOQUES DE CÓDIGO
 --------------------------------------------------- */
-
 pre {
   border-radius: 10px !important;
   border: 1px solid #e2e8f0 !important;
@@ -199,7 +221,7 @@ code {
 }
 
 /* ---------------------------------------------------
-   BOTONES DE NAVEGACIÓN (Prev / Next)
+   BOTONES DE NAVEGACIÓN (Prev/Next)
 --------------------------------------------------- */
 .pagination a {
   background: #2563eb !important;

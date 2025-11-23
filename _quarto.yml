@@ -3,6 +3,7 @@ project:
 
 book:
   title: "Manual de Inteligencia Artificial para Emprendedores"
+  sidebar-title: "Manual IA"
   author: "Equipo de Vinculación – ESPE"
   date: "2025"
   chapters:
