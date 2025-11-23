@@ -1,29 +1,26 @@
 ---
 title: ""
-format: html
+format:
+  html:
+    toc: false
+    number-sections: false
 page-layout: full
-toc: false
-number-sections: false
-include-in-header: cover-hide-sidebar.html
 ---
 
-<div class="cover-wrapper">
+<!-- PORTADA REAL SIN QUE SE VEA COMO CÓDIGO -->
+<div class="cover-page">
+  <div class="cover-box">
 
-  <div class="cover-card">
+    <img src="img/logo.png" alt="Logo del proyecto" class="cover-logo" />
 
-    <img src="img/logo.png" class="cover-logo" alt="Logo">
-
-    <h1 class="cover-title">
-      Manual de Inteligencia Artificial<br>
-      para Emprendedores
-    </h1>
+    <h1>Manual de Inteligencia Artificial<br>para Emprendedores</h1>
 
     <p class="cover-subtitle">
-      Guía práctica para crear, optimizar y escalar tu emprendimiento usando IA generativa
+      Guía práctica para crear, optimizar y escalar tu emprendimiento usando herramientas de IA generativa.
     </p>
 
     <div class="cover-tags">
-      <span>IA Aplicada</span>
+      <span>IA aplicada</span>
       <span>Automatización</span>
       <span>ChatGPT</span>
       <span>Marketing Digital</span>
@@ -34,5 +31,4 @@ include-in-header: cover-hide-sidebar.html
     <p class="cover-year">2025</p>
 
   </div>
-
 </div>
