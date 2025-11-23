@@ -2,34 +2,31 @@ name: Publish Quarto Book
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write      # necesario para publicar en gh-pages
-      pages: write
-      id-token: write
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Setup Quarto
+      - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: stable
 
-      - name: Render HTML book
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          to: html
+      - name: Render book (solo HTML)
+        run: quarto render --to html
 
-      - name: Publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: _book
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
