@@ -22,7 +22,7 @@ Para obtener resultados útiles, no basta con preguntar; hay que saber pedir. El
 
 Dominar el *prompt* te permite pasar de respuestas vagas a contenido de calidad profesional.
 
-#### 📝 Los 4 Elementos Clave de un *Prompt* Efectivo
+#### 2.3 Los 4 Elementos Clave de un *Prompt* Efectivo
 
 Un *prompt* ideal incluye cuatro elementos cruciales que guían a la IA para que entienda tu necesidad y contexto:
 
@@ -38,3 +38,4 @@ Un *prompt* ideal incluye cuatro elementos cruciales que guían a la IA para que
 Al combinar estos elementos, se logra una instrucción precisa que maximiza la utilidad de la IA:
 
 > **"Actúa como un copywriter experto en redes sociales. Genera 10 ideas de títulos para un artículo de blog. El artículo es sobre los beneficios del café orgánico para pymes. Presenta las ideas en una tabla con dos columnas: Título y Enganche."**
+
