@@ -1,4 +1,4 @@
-# Capítulo 2: Fundamentos de la IA para Emprendedores
+# 2. Fundamentos de la IA para Emprendedores
 
 Este capítulo busca desmitificar la Inteligencia Artificial (IA), centrándose únicamente en los conceptos esenciales que todo emprendedor debe manejar para empezar a trabajar y aplicar estas herramientas de forma efectiva.
 
@@ -38,4 +38,5 @@ Un *prompt* ideal incluye cuatro elementos cruciales que guían a la IA para que
 Al combinar estos elementos, se logra una instrucción precisa que maximiza la utilidad de la IA:
 
 > **"Actúa como un copywriter experto en redes sociales. Genera 10 ideas de títulos para un artículo de blog. El artículo es sobre los beneficios del café orgánico para pymes. Presenta las ideas en una tabla con dos columnas: Título y Enganche."**
+
 
