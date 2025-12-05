@@ -1,3 +1,4 @@
+
 # 3. Herramientas Gratuitas Esenciales para el Emprendedor
 
 Este capítulo se centra en las herramientas con planes gratuitos o *freemium* que ofrecen un valor significativo para las pequeñas y medianas empresas con presupuestos limitados. Estas herramientas le permitirán automatizar, crear y planificar sin realizar una inversión inicial.
@@ -66,3 +67,4 @@ Estas herramientas actúan como un control de calidad y un gestor de informació
 
 * **Grammarly (Versión Gratuita):** Una extensión esencial. Revisa la ortografía y gramática en tiempo real en la mayoría de las plataformas (correo, documentos, redes sociales). Su principal beneficio es garantizar la credibilidad de sus textos.
 * **Notion AI (Plan *Freemium* con créditos):** Si usa Notion para gestionar su trabajo, la IA integrada le ayuda a crear borradores de documentos, a resumir páginas enteras de notas o a organizar listas de tareas en calendarios y bases de datos.
+
