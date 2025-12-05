@@ -1,0 +1,40 @@
+# Capítulo 2: Fundamentos de la IA para Emprendedores
+
+Este capítulo busca desmitificar la Inteligencia Artificial (IA), centrándose únicamente en los conceptos esenciales que todo emprendedor debe manejar para empezar a trabajar y aplicar estas herramientas de forma efectiva.
+
+---
+
+### 2.1 Conceptos Clave
+
+Para un emprendedor, la clave no está en la programación, sino en entender la **función** de cada concepto de la IA para saber qué herramienta utilizar.
+
+| Concepto | Definición Simple | Aplicación Práctica |
+| :--- | :--- | :--- |
+| **Inteligencia Artificial (IA)** | Es la simulación de procesos de inteligencia humana (como el aprendizaje y la resolución de problemas) por parte de máquinas. | Toda herramienta que uses (chatbots, generadores de texto, etc.) se basa en IA. |
+| **Aprendizaje Automático (ML) o *Machine Learning*** | Sistemas que **aprenden de los datos** (identifican patrones y toman decisiones) sin ser programados explícitamente para cada tarea. | La IA que recomienda productos personalizados a tus clientes o que clasifica correos como spam. |
+| **IA Generativa** | Modelos que pueden **crear contenido nuevo** (texto, imágenes, código, música) a partir de una instrucción simple (el *prompt*). | Tu principal aliada: ChatGPT, Gemini, Copilot, DALL-E, etc. (El motor de contenido). |
+
+---
+
+### 2.2 La Habilidad Esencial: *Prompt Engineering*
+
+Para obtener resultados útiles, no basta con preguntar; hay que saber pedir. El ***Prompt Engineering*** (Ingeniería de Instrucciones) es el arte y la ciencia de diseñar la instrucción perfecta que se le da a un modelo de IA para obtener exactamente el resultado que deseas para tu negocio.
+
+Dominar el *prompt* te permite pasar de respuestas vagas a contenido de calidad profesional.
+
+#### 📝 Los 4 Elementos Clave de un *Prompt* Efectivo
+
+Un *prompt* ideal incluye cuatro elementos cruciales que guían a la IA para que entienda tu necesidad y contexto:
+
+| Elemento | Descripción | Ejemplo |
+| :--- | :--- | :--- |
+| **1. Rol** | Define la identidad que debe asumir la IA para responder con la perspectiva correcta (Ej: Experto en marketing, Diseñador UX, Consultor de negocios). | *“Actúa como un **copywriter experto en redes sociales**...”* |
+| **2. Tarea** | Indica la **acción específica** y clara que debe realizar la IA (Ej: Generar, resumir, traducir, clasificar). | *“...y **genera 10 ideas de títulos** para un artículo de blog...”* |
+| **3. Contexto** | Proporciona la información de fondo necesaria sobre tu negocio, tu producto o tu público objetivo para que la respuesta sea relevante. | *“...el artículo es sobre **los beneficios del café orgánico para pymes**.”* |
+| **4. Formato** | Especifica **cómo** debe presentar la respuesta para que sea fácil de usar (Ej: En una tabla, en un listado con viñetas, en un texto de 200 palabras). | *“...presenta las ideas en una **tabla con dos columnas: Título y Enganche**.”* |
+
+#### Ejemplo de *Prompt* Completo
+
+Al combinar estos elementos, se logra una instrucción precisa que maximiza la utilidad de la IA:
+
+> **"Actúa como un copywriter experto en redes sociales. Genera 10 ideas de títulos para un artículo de blog. El artículo es sobre los beneficios del café orgánico para pymes. Presenta las ideas en una tabla con dos columnas: Título y Enganche."**
