@@ -1,6 +1,5 @@
 project:
   type: book
-  output-dir: docs
 
 book:
   title: "Manual de Inteligencia Artificial para Emprendedores"
