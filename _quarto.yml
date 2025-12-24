@@ -7,7 +7,6 @@ book:
   date: "2025"
   chapters:
     - index.qmd
-    - 01_presentacion.qmd
     - 02_fundamentos.qmd
     - 03_herramientas.qmd
     - 04_modelo_negocio.qmd
