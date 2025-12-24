@@ -2,54 +2,35 @@ project:
   type: book
 
 book:
-  title: "Manual de IA para Emprendedores"
+  title: "Manual de Inteligencia Artificial para Emprendedores"
   author: "Equipo de Vinculación – ESPE"
   date: "2025"
-  
-  sidebar:
-    style: "floating"
-    search: true
-    contents:
-      - index.qmd
-      
-      # Módulos numerados del 1 al 9 (Mínimo solicitado)
-      - section: "Fase 1: Preparación"
-        contents:
-          - 01_presentacion.qmd   # Módulo 1: Introducción y Objetivos
-          - 02_fundamentos.qmd     # Módulo 2: Fundamentos y Prompt Engineering
-          - 04_modelo_negocio.qmd  # Módulo 3: IA en la Estrategia de Negocio
-          
-      - section: "Fase 2: Ejecución"
-        contents:
-          - 03_herramientas.qmd    # Módulo 4: Catálogo de Herramientas Pro
-          - 05_marketing.qmd       # Módulo 5: Marketing y Contenido Digital
-          - 06_atencion_cliente.qmd # Módulo 6: Automatización y Ventas
-          
-      - section: "Fase 3: Optimización"
-        contents:
-          - 07_gestion.qmd         # Módulo 7: Gestión de Operaciones y Tiempo
-          - 08_etica.qmd           # Módulo 8: Ética y Seguridad de Datos
-          - 09_talleres.qmd        # Módulo 9: Talleres Prácticos Aplicados
-          
-      # Secciones de cierre
-      - section: "Recursos Finales"
-        contents:
-          - 10_evidencias.qmd
-          - 11_conclusiones.qmd
-          - anexos.qmd
+  chapters:
+    - index.qmd
+    - 01_presentacion.qmd
+    - 02_fundamentos.qmd
+    - 03_herramientas.qmd
+    - 04_modelo_negocio.qmd
+    - 05_marketing.qmd
+    - 06_atencion_cliente.qmd
+    - 07_gestion.qmd
+    - 08_etica.qmd
+    - 09_talleres.qmd
+    - 10_evidencias.qmd
+    - 11_conclusiones.qmd
+    - anexos.qmd
 
 format:
   html:
-    theme: 
+    theme:
       light: minty
-      dark: cyborg
     css: styles.css
     toc: true
+    toc-depth: 3
     number-sections: true
-    
+
   pdf:
     documentclass: report
     toc: true
     number-sections: true
-
-lang: es
+    geometry: "margin=2.5cm"
