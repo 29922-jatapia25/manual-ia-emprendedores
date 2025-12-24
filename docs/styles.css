@@ -1,0 +1,279 @@
+/* ---------------------------------------------------
+   TIPOGRAFÍA GLOBAL
+--------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: "Montserrat", system-ui, sans-serif !important;
+  background: #f3f4f6;
+  color: #0f172a;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ---------------------------------------------------
+   CONTENEDOR GENERAL Y PÁGINA
+--------------------------------------------------- */
+#quarto-content {
+  background: #f3f4f6 !important;
+}
+
+/* Tarjeta del contenido principal */
+main.content {
+  background: #ffffff;
+  padding: 3rem 3.5rem !important;
+  border-radius: 14px;
+  max-width: 1050px;
+  margin: 2.5rem auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
+
+/* ---------------------------------------------------
+   ENCABEZADOS
+--------------------------------------------------- */
+h1, h2, h3, h4 {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.4rem !important;
+  border-bottom: 3px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.3rem;
+}
+
+h2 {
+  margin-top: 2.3rem;
+  font-size: 1.7rem !important;
+}
+
+h3 {
+  margin-top: 1.8rem;
+  font-size: 1.35rem !important;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+/* ---------------------------------------------------
+   ENLACES
+--------------------------------------------------- */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------
+   SIDEBAR / MENÚ LATERAL
+--------------------------------------------------- */
+
+#quarto-sidebar {
+  background: #0f172a !important;
+  border-right: 1px solid #1e293b;
+  width: 270px !important;
+  overflow-y: auto !important; /* scroll si es necesario */
+}
+
+/* Ocultar NUMERACIÓN de capítulos del menú */
+#quarto-sidebar .chapter-number {
+  display: none !important;
+}
+
+/* Ocultar scroll visible del menú */
+#quarto-sidebar {
+  scrollbar-width: none !important; /* Firefox */
+}
+#quarto-sidebar::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important; /* Chrome/Edge */
+}
+
+/* ---------------------------------------------------
+   TÍTULO PERSONALIZADO DEL SIDEBAR
+--------------------------------------------------- */
+
+/* Oculto el texto original */
+#quarto-sidebar .sidebar-title {
+  color: transparent !important;
+  position: relative;
+  height: auto !important;
+}
+
+/* Inserto mi propio título */
+#quarto-sidebar .sidebar-title::before {
+  content: "Manual IA";  /* <-- cambia el texto si quieres */
+  color: #f8fafc;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: normal;
+}
+
+/* ---------------------------------------------------
+   ÍTEMS DEL MENÚ
+--------------------------------------------------- */
+#quarto-sidebar .sidebar-item .sidebar-link {
+  color: #cbd5f4 !important;
+  font-size: 0.95rem;
+  padding: 0.45rem 1rem !important;
+  border-radius: 6px;
+}
+
+/* Activo / hover */
+#quarto-sidebar .sidebar-item .sidebar-link:hover,
+#quarto-sidebar .sidebar-item .sidebar-link.active {
+  background: linear-gradient(90deg, #1e40af, #22c55e) !important;
+  color: #ffffff !important;
+}
+
+/* ---------------------------------------------------
+   BARRA DE BÚSQUEDA DEL SIDEBAR
+--------------------------------------------------- */
+#quarto-sidebar .sidebar-search {
+  padding: 0 1rem 1rem;
+}
+
+#quarto-sidebar .sidebar-search input[type="search"] {
+  width: 100% !important;
+  border-radius: 999px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  color: #e5e7eb;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+#quarto-sidebar .sidebar-search input[type="search"]::placeholder {
+  color: #9ca3af;
+}
+
+#quarto-sidebar .sidebar-search input[type="search"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #22c55e;
+  border-color: #22c55e;
+}
+
+/* ---------------------------------------------------
+   TABLAS
+--------------------------------------------------- */
+/* ---------------------------------------------------
+   TABLAS (FIX encabezado visible)
+--------------------------------------------------- */
+
+/* Tabla general */
+table, .table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Encabezado: fuerza color y fondo */
+table thead th,
+table thead td,
+.table thead th,
+.table thead td {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  font-weight: 700 !important;
+  padding: 10px 12px !important;
+  border-bottom: 1px solid #1e293b !important;
+}
+
+/* A veces Quarto/Pandoc mete <p> dentro del th */
+table thead th *,
+.table thead th * {
+  color: #f8fafc !important;
+}
+
+/* Celdas */
+table tbody td,
+.table tbody td {
+  padding: 10px 12px !important;
+}
+
+
+/* ---------------------------------------------------
+   CALLOUTS
+--------------------------------------------------- */
+.callout {
+  border-radius: 10px !important;
+  padding: 1rem 1.2rem !important;
+  border-left-width: 6px !important;
+}
+
+.callout-note {
+  border-left-color: #2563eb !important;
+  background: #eff6ff !important;
+}
+
+.callout-tip {
+  border-left-color: #16a34a !important;
+  background: #ecfdf3 !important;
+}
+
+.callout-warning {
+  border-left-color: #ea580c !important;
+  background: #fff7ed !important;
+}
+
+/* ---------------------------------------------------
+   BLOQUES DE CÓDIGO
+--------------------------------------------------- */
+pre {
+  border-radius: 10px !important;
+  border: 1px solid #e2e8f0 !important;
+  padding: 0.9rem !important;
+  overflow-x: auto;
+}
+
+code {
+  font-size: 0.95rem;
+}
+
+/* ---------------------------------------------------
+   BOTONES DE NAVEGACIÓN (Prev/Next)
+--------------------------------------------------- */
+.pagination a {
+  background: #2563eb !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+  padding: 8px 16px !important;
+  font-weight: 600;
+}
+
+.pagination a:hover {
+  background: #1d4ed8 !important;
+}
+
+/* Evitar hover, subrayado, cursor y colores del título original */
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .sidebar-title a {
+  font-size: 0 !important;      /* oculta el texto original */
+  color: transparent !important; /* oculta color */
+  text-decoration: none !important;
+  cursor: default !important;    /* no se convierte en mano */
+  pointer-events: none !important; /* desactiva el enlace original */
+}
+
+/* Insertar título nuevo */
+#quarto-sidebar .sidebar-title::before {
+  content: "Manual IA";          /* <-- Cambia aquí si quieres otro nombre */
+  color: #f8fafc;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none !important; /* no recibe hover */
+}
