@@ -1,0 +1,151 @@
+# Talleres Prácticos de Inteligencia Artificial para Emprendedores
+
+Los talleres prácticos permiten a los emprendedores **interactuar directamente con la Inteligencia Artificial (IA)** mediante acciones dinámicas guiadas, como la ejecución de comandos o el uso de botones que generan respuestas automáticas.
+
+Cada taller combina una **guía metodológica** con una **acción interactiva**, fomentando el aprendizaje activo y la toma de decisiones informada.
+
+---
+
+## Metodología de los Talleres
+
+Cada taller sigue la siguiente estructura:
+
+1. Planteamiento del problema  
+2. Interacción dinámica con la IA (acción o botón)  
+3. Generación automática de resultados  
+4. Análisis crítico del emprendedor  
+5. Decisión final humana  
+
+> 💡 **Principio clave:**  
+> La IA genera respuestas, pero el emprendedor decide.
+
+---
+
+## Taller 1: Generación Dinámica de Ideas de Negocio
+
+### Objetivo
+Generar ideas de negocio utilizando una acción interactiva de IA.
+
+### Guía Paso a Paso
+
+1. El emprendedor define el sector del negocio.
+2. Ingresa el problema o necesidad detectada.
+3. Presiona el botón **“Generar ideas con IA”**.
+4. La IA muestra automáticamente una lista de ideas.
+5. El emprendedor analiza y selecciona la más viable.
+
+### Acción Dinámica
+🟢 **Botón:** `Generar ideas con IA`
+
+### Resultado Generado
+- Lista automática de ideas de negocio
+- Oportunidades detectadas por la IA
+
+---
+
+## Taller 2: Perfil Dinámico del Cliente Ideal
+
+### Objetivo
+Obtener automáticamente el perfil del cliente ideal mediante IA.
+
+### Guía Paso a Paso
+
+1. El emprendedor describe su producto o servicio.
+2. Presiona el botón **“Analizar cliente ideal”**.
+3. La IA genera el perfil del cliente.
+4. El emprendedor valida y ajusta la información.
+
+### Acción Dinámica
+🟢 **Botón:** `Analizar cliente ideal`
+
+### Resultado Generado
+- Perfil demográfico
+- Necesidades y comportamientos del cliente
+
+---
+
+## Taller 3: Creación Automática de Contenido Promocional
+
+### Objetivo
+Generar contenido promocional mediante una acción automática.
+
+### Guía Paso a Paso
+
+1. El emprendedor define el objetivo del contenido.
+2. Selecciona el canal (red social, anuncio, mensaje).
+3. Presiona el botón **“Crear contenido con IA”**.
+4. La IA genera el texto promocional.
+5. El emprendedor revisa y edita el contenido.
+
+### Acción Dinámica
+🟢 **Botón:** `Crear contenido con IA`
+
+### Resultado Generado
+- Texto promocional automático
+- Propuesta de mensaje comercial
+
+---
+
+## Taller 4: Simulación Dinámica de Atención al Cliente
+
+### Objetivo
+Simular respuestas automáticas a clientes mediante IA.
+
+### Guía Paso a Paso
+
+1. El emprendedor ingresa una pregunta frecuente.
+2. Presiona el botón **“Responder con IA”**.
+3. La IA genera una respuesta inmediata.
+4. El emprendedor evalúa claridad y utilidad.
+5. Ajusta la respuesta si es necesario.
+
+### Acción Dinámica
+🟢 **Botón:** `Responder con IA`
+
+### Resultado Generado
+- Respuesta automática simulada
+- Evaluación del rol de la IA en atención al cliente
+
+---
+
+## Taller 5: Apoyo Dinámico a la Toma de Decisiones
+
+### Objetivo
+Analizar escenarios empresariales mediante IA.
+
+### Guía Paso a Paso
+
+1. El emprendedor describe una decisión del negocio.
+2. Presiona el botón **“Analizar escenarios”**.
+3. La IA muestra riesgos y recomendaciones.
+4. El emprendedor compara opciones.
+5. Decide con criterio propio.
+
+::: callout-note
+**Nota:**  
+Las decisiones generadas por la IA son solo recomendaciones.
+:::
+
+### Acción Dinámica
+🟢 **Botón:** `Analizar escenarios`
+
+### Resultado Generado
+- Análisis automático de escenarios
+- Recomendaciones estratégicas
+
+---
+
+## Reflexión Final
+
+El emprendedor reflexiona sobre:
+
+- Utilidad de las acciones automáticas
+- Confiabilidad de las respuestas
+- Importancia del control humano
+- Uso responsable de la IA
+
+---
+
+## Conclusión
+
+Los talleres prácticos con acciones dinámicas demuestran que la Inteligencia Artificial puede integrarse de forma **interactiva, guiada y responsable** en los emprendimientos, fortaleciendo la toma de decisiones sin reemplazar al ser humano.
