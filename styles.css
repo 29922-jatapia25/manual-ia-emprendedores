@@ -166,21 +166,41 @@ a:hover {
 /* ---------------------------------------------------
    TABLAS
 --------------------------------------------------- */
-table {
+/* ---------------------------------------------------
+   TABLAS (FIX encabezado visible)
+--------------------------------------------------- */
+
+/* Tabla general */
+table, .table {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
-table th {
-  background: #0f172a !important;
-  color: #f9fafb;
-  padding: 10px 12px;
+/* Encabezado: fuerza color y fondo */
+table thead th,
+table thead td,
+.table thead th,
+.table thead td {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  font-weight: 700 !important;
+  padding: 10px 12px !important;
+  border-bottom: 1px solid #1e293b !important;
 }
 
-table td {
-  padding: 10px 12px;
+/* A veces Quarto/Pandoc mete <p> dentro del th */
+table thead th *,
+.table thead th * {
+  color: #f8fafc !important;
 }
+
+/* Celdas */
+table tbody td,
+.table tbody td {
+  padding: 10px 12px !important;
+}
+
 
 /* ---------------------------------------------------
    CALLOUTS
