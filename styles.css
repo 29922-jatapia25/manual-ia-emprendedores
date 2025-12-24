@@ -277,3 +277,37 @@ code {
   top: 0;
   pointer-events: none !important; /* no recibe hover */
 }
+
+.taller-box{
+  padding: 1rem 1.2rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+  margin: 1rem 0 1.2rem;
+}
+.taller-input{
+  width: 100% !important;
+  padding: 10px;
+  margin: 6px 0 12px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+.taller-btn{
+  padding: 10px 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+.taller-btn:hover{
+  background: #1d4ed8;
+}
+.taller-out{
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+}

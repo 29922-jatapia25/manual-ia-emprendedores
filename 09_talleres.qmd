@@ -1,151 +1,382 @@
 # Talleres Prácticos de Inteligencia Artificial para Emprendedores
 
-Los talleres prácticos permiten a los emprendedores **interactuar directamente con la Inteligencia Artificial (IA)** mediante acciones dinámicas guiadas, como la ejecución de comandos o el uso de botones que generan respuestas automáticas.
+Los talleres prácticos permiten a los emprendedores **aprender haciendo**, interactuando con una “IA simulada” mediante botones que generan respuestas automáticas. Esta simulación es **didáctica**, útil para comprender el flujo de trabajo (entrada → proceso → salida) sin depender de servicios externos.
 
-Cada taller combina una **guía metodológica** con una **acción interactiva**, fomentando el aprendizaje activo y la toma de decisiones informada.
+> 💡 **Nota metodológica (ESPE):**  
+> Los siguientes talleres incluyen una **demostración interactiva** que simula el comportamiento de herramientas de IA para fines educativos. El emprendedor siempre debe validar y adaptar los resultados antes de aplicarlos en su negocio.
 
 ---
 
 ## Metodología de los Talleres
 
-Cada taller sigue la siguiente estructura:
+Cada taller sigue esta estructura:
 
-1. Planteamiento del problema  
-2. Interacción dinámica con la IA (acción o botón)  
-3. Generación automática de resultados  
-4. Análisis crítico del emprendedor  
-5. Decisión final humana  
-
-> 💡 **Principio clave:**  
-> La IA genera respuestas, pero el emprendedor decide.
+1. **Planteamiento** (qué necesita el negocio)  
+2. **Entrada de datos** (lo que el emprendedor escribe)  
+3. **Acción dinámica** (botón que ejecuta la simulación)  
+4. **Salida automática** (resultado generado)  
+5. **Evaluación** (decisión final del emprendedor)
 
 ---
 
 ## Taller 1: Generación Dinámica de Ideas de Negocio
 
 ### Objetivo
-Generar ideas de negocio utilizando una acción interactiva de IA.
+Generar ideas de negocio a partir de un sector y una necesidad detectada.
 
 ### Guía Paso a Paso
+1. Escribe el sector del negocio.
+2. Describe el problema/necesidad.
+3. Presiona **“Generar ideas con IA”**.
+4. Analiza las ideas generadas y selecciona una.
+5. Justifica por qué es viable para tu contexto.
 
-1. El emprendedor define el sector del negocio.
-2. Ingresa el problema o necesidad detectada.
-3. Presiona el botón **“Generar ideas con IA”**.
-4. La IA muestra automáticamente una lista de ideas.
-5. El emprendedor analiza y selecciona la más viable.
+### Demo interactiva (simulación)
 
-### Acción Dinámica
-🟢 **Botón:** `Generar ideas con IA`
+<div class="taller-box">
+  <h3>🧪 Taller 1 — Generar ideas de negocio</h3>
 
-### Resultado Generado
-- Lista automática de ideas de negocio
-- Oportunidades detectadas por la IA
+  <label><strong>Sector:</strong></label>
+  <input id="t1_sector" type="text" placeholder="Ej: alimentos, educación, comercio" class="taller-input">
+
+  <label><strong>Problema/Necesidad:</strong></label>
+  <input id="t1_problema" type="text" placeholder="Ej: poco tiempo para cocinar, falta de clientes..." class="taller-input">
+
+  <button id="t1_btn" class="taller-btn">Generar ideas con IA</button>
+
+  <div id="t1_out" class="taller-out"><em>Completa los campos y presiona el botón.</em></div>
+</div>
 
 ---
 
 ## Taller 2: Perfil Dinámico del Cliente Ideal
 
 ### Objetivo
-Obtener automáticamente el perfil del cliente ideal mediante IA.
+Definir el cliente ideal a partir del producto/servicio y el público objetivo.
 
 ### Guía Paso a Paso
+1. Describe tu producto o servicio.
+2. Indica el público principal (edad/ubicación/interés).
+3. Presiona **“Analizar cliente ideal”**.
+4. Revisa el perfil generado.
+5. Ajusta el perfil según tu realidad local.
 
-1. El emprendedor describe su producto o servicio.
-2. Presiona el botón **“Analizar cliente ideal”**.
-3. La IA genera el perfil del cliente.
-4. El emprendedor valida y ajusta la información.
+### Demo interactiva (simulación)
 
-### Acción Dinámica
-🟢 **Botón:** `Analizar cliente ideal`
+<div class="taller-box">
+  <h3>🧪 Taller 2 — Perfil del cliente ideal</h3>
 
-### Resultado Generado
-- Perfil demográfico
-- Necesidades y comportamientos del cliente
+  <label><strong>Producto/Servicio:</strong></label>
+  <input id="t2_producto" type="text" placeholder="Ej: café artesanal, clases de refuerzo, tienda online..." class="taller-input">
+
+  <label><strong>Público objetivo (breve):</strong></label>
+  <input id="t2_publico" type="text" placeholder="Ej: jóvenes 18-25 en Quito, madres de familia..." class="taller-input">
+
+  <button id="t2_btn" class="taller-btn">Analizar cliente ideal</button>
+
+  <div id="t2_out" class="taller-out"><em>Completa los campos y presiona el botón.</em></div>
+</div>
 
 ---
 
 ## Taller 3: Creación Automática de Contenido Promocional
 
 ### Objetivo
-Generar contenido promocional mediante una acción automática.
+Generar un texto promocional adaptado al canal y al objetivo del negocio.
 
 ### Guía Paso a Paso
+1. Escribe el nombre del negocio o producto.
+2. Selecciona el canal (Instagram, WhatsApp, Facebook).
+3. Indica el objetivo (promoción, lanzamiento, descuento).
+4. Presiona **“Crear contenido con IA”**.
+5. Revisa el texto y edítalo si es necesario.
 
-1. El emprendedor define el objetivo del contenido.
-2. Selecciona el canal (red social, anuncio, mensaje).
-3. Presiona el botón **“Crear contenido con IA”**.
-4. La IA genera el texto promocional.
-5. El emprendedor revisa y edita el contenido.
+### Demo interactiva (simulación)
 
-### Acción Dinámica
-🟢 **Botón:** `Crear contenido con IA`
+<div class="taller-box">
+  <h3>🧪 Taller 3 — Contenido promocional</h3>
 
-### Resultado Generado
-- Texto promocional automático
-- Propuesta de mensaje comercial
+  <label><strong>Negocio/Producto:</strong></label>
+  <input id="t3_negocio" type="text" placeholder="Ej: Panadería La Esquina, Shampoo Natural..." class="taller-input">
+
+  <label><strong>Canal:</strong></label>
+  <select id="t3_canal" class="taller-input">
+    <option value="Instagram">Instagram</option>
+    <option value="Facebook">Facebook</option>
+    <option value="WhatsApp">WhatsApp</option>
+  </select>
+
+  <label><strong>Objetivo:</strong></label>
+  <select id="t3_objetivo" class="taller-input">
+    <option value="promoción">Promoción</option>
+    <option value="lanzamiento">Lanzamiento</option>
+    <option value="descuento">Descuento</option>
+  </select>
+
+  <button id="t3_btn" class="taller-btn">Crear contenido con IA</button>
+
+  <div id="t3_out" class="taller-out"><em>Completa y presiona el botón.</em></div>
+</div>
 
 ---
 
 ## Taller 4: Simulación Dinámica de Atención al Cliente
 
 ### Objetivo
-Simular respuestas automáticas a clientes mediante IA.
+Generar respuestas automáticas a preguntas frecuentes y evaluar su calidad.
 
 ### Guía Paso a Paso
+1. Escribe una pregunta frecuente de un cliente.
+2. Presiona **“Responder con IA”**.
+3. Revisa la respuesta.
+4. Identifica si requiere atención humana.
+5. Ajusta la respuesta para tu negocio.
 
-1. El emprendedor ingresa una pregunta frecuente.
-2. Presiona el botón **“Responder con IA”**.
-3. La IA genera una respuesta inmediata.
-4. El emprendedor evalúa claridad y utilidad.
-5. Ajusta la respuesta si es necesario.
+### Demo interactiva (simulación)
 
-### Acción Dinámica
-🟢 **Botón:** `Responder con IA`
+<div class="taller-box">
+  <h3>🧪 Taller 4 — Respuestas automáticas (FAQ)</h3>
 
-### Resultado Generado
-- Respuesta automática simulada
-- Evaluación del rol de la IA en atención al cliente
+  <label><strong>Pregunta del cliente:</strong></label>
+  <input id="t4_pregunta" type="text" placeholder="Ej: ¿Hacen envíos?, ¿Cuáles son los horarios?" class="taller-input">
+
+  <button id="t4_btn" class="taller-btn">Responder con IA</button>
+
+  <div id="t4_out" class="taller-out"><em>Escribe una pregunta y presiona el botón.</em></div>
+</div>
 
 ---
 
 ## Taller 5: Apoyo Dinámico a la Toma de Decisiones
 
 ### Objetivo
-Analizar escenarios empresariales mediante IA.
+Analizar escenarios de negocio (riesgos/beneficios) para apoyar una decisión.
 
 ### Guía Paso a Paso
-
-1. El emprendedor describe una decisión del negocio.
-2. Presiona el botón **“Analizar escenarios”**.
-3. La IA muestra riesgos y recomendaciones.
-4. El emprendedor compara opciones.
-5. Decide con criterio propio.
+1. Describe la decisión (ej: subir precios, invertir en publicidad).
+2. Indica una restricción (presupuesto, tiempo, capacidad).
+3. Presiona **“Analizar escenarios”**.
+4. Revisa riesgos y beneficios.
+5. Toma la decisión final con criterio propio.
 
 ::: callout-note
 **Nota:**  
-Las decisiones generadas por la IA son solo recomendaciones.
+La IA sugiere escenarios, pero la decisión final es responsabilidad del emprendedor.
 :::
 
-### Acción Dinámica
-🟢 **Botón:** `Analizar escenarios`
+### Demo interactiva (simulación)
 
-### Resultado Generado
-- Análisis automático de escenarios
-- Recomendaciones estratégicas
+<div class="taller-box">
+  <h3>🧪 Taller 5 — Análisis de escenarios</h3>
+
+  <label><strong>Decisión a evaluar:</strong></label>
+  <input id="t5_decision" type="text" placeholder="Ej: invertir $100 en publicidad, subir precios 10%..." class="taller-input">
+
+  <label><strong>Restricción principal:</strong></label>
+  <input id="t5_restriccion" type="text" placeholder="Ej: presupuesto limitado, poco tiempo, poco stock..." class="taller-input">
+
+  <button id="t5_btn" class="taller-btn">Analizar escenarios</button>
+
+  <div id="t5_out" class="taller-out"><em>Completa los campos y presiona el botón.</em></div>
+</div>
 
 ---
 
 ## Reflexión Final
 
-El emprendedor reflexiona sobre:
+Responde brevemente:
 
-- Utilidad de las acciones automáticas
-- Confiabilidad de las respuestas
-- Importancia del control humano
-- Uso responsable de la IA
+- ¿Qué taller te resultó más útil y por qué?
+- ¿Qué limitación observaste en las respuestas automáticas?
+- ¿Qué parte del proceso requiere siempre intervención humana?
 
 ---
 
 ## Conclusión
 
-Los talleres prácticos con acciones dinámicas demuestran que la Inteligencia Artificial puede integrarse de forma **interactiva, guiada y responsable** en los emprendimientos, fortaleciendo la toma de decisiones sin reemplazar al ser humano.
+Los talleres prácticos con interacción dinámica permiten comprender cómo la IA puede apoyar un emprendimiento mediante un flujo simple: **entrada de información → procesamiento → salida automática**. Esta experiencia fortalece el pensamiento crítico, la toma de decisiones y el uso responsable de la tecnología.
+
+---
+
+<script>
+(function () {
+  // Utilidades
+  const esc = (s) => (s || "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[c]));
+
+  function requireFields(outEl, fields) {
+    const empty = fields.some(v => !v || !v.trim());
+    if (empty) {
+      outEl.innerHTML = "⚠️ <strong>Completa todos los campos</strong> para generar el resultado.";
+      return false;
+    }
+    return true;
+  }
+
+  // Taller 1
+  const t1_btn = document.getElementById("t1_btn");
+  const t1_out = document.getElementById("t1_out");
+  t1_btn?.addEventListener("click", () => {
+    const sector = document.getElementById("t1_sector").value;
+    const problema = document.getElementById("t1_problema").value;
+    if (!requireFields(t1_out, [sector, problema])) return;
+
+    const ideas = [
+      `Servicio ${esc(sector)} “rápido”: solución enfocada en ${esc(problema)} con entregas y suscripción.`,
+      `Asistente por WhatsApp para ${esc(sector)}: guía para resolver ${esc(problema)} con mensajes automatizados.`,
+      `Producto “listo para usar” en ${esc(sector)}: versión simple y económica para atacar ${esc(problema)}.`,
+      `Marketplace local de ${esc(sector)}: conecta oferta y demanda para reducir ${esc(problema)}.`,
+      `Membresía ${esc(sector)}: beneficios mensuales + soporte continuo para quienes enfrentan ${esc(problema)}.`
+    ].sort(()=>Math.random()-0.5).slice(0,4);
+
+    t1_out.innerHTML = `
+      ✅ <strong>Ideas generadas (simulación IA):</strong>
+      <ol style="margin-top:10px;">
+        ${ideas.map((x,i)=>`<li><strong>Idea ${i+1}:</strong> ${x}</li>`).join("")}
+      </ol>
+      <div style="margin-top:10px;"><strong>Tarea:</strong> elige 1 idea y justifica su viabilidad (costo, tiempo, cliente).</div>
+    `;
+  });
+
+  // Taller 2
+  const t2_btn = document.getElementById("t2_btn");
+  const t2_out = document.getElementById("t2_out");
+  t2_btn?.addEventListener("click", () => {
+    const producto = document.getElementById("t2_producto").value;
+    const publico = document.getElementById("t2_publico").value;
+    if (!requireFields(t2_out, [producto, publico])) return;
+
+    const perfil = {
+      "Producto/Servicio": esc(producto),
+      "Público objetivo": esc(publico),
+      "Necesidades": ["Ahorro de tiempo", "Calidad y confianza", "Precio justo", "Facilidad de compra"].sort(()=>Math.random()-0.5).slice(0,3),
+      "Motivaciones": ["Comodidad", "Mejorar su bienestar", "Resolver un problema específico"].sort(()=>Math.random()-0.5).slice(0,2),
+      "Canales recomendados": ["WhatsApp", "Instagram", "Google Maps", "Facebook"].sort(()=>Math.random()-0.5).slice(0,3),
+      "Mensaje clave": `“${esc(producto)} pensado para ${esc(publico)}: solución práctica, confiable y accesible.”`
+    };
+
+    t2_out.innerHTML = `
+      ✅ <strong>Perfil sugerido (simulación IA):</strong>
+      <ul style="margin-top:10px;">
+        <li><strong>Producto/Servicio:</strong> ${perfil["Producto/Servicio"]}</li>
+        <li><strong>Público objetivo:</strong> ${perfil["Público objetivo"]}</li>
+        <li><strong>Necesidades:</strong> ${perfil["Necesidades"].join(", ")}</li>
+        <li><strong>Motivaciones:</strong> ${perfil["Motivaciones"].join(", ")}</li>
+        <li><strong>Canales recomendados:</strong> ${perfil["Canales recomendados"].join(", ")}</li>
+        <li><strong>Mensaje clave:</strong> ${perfil["Mensaje clave"]}</li>
+      </ul>
+      <div style="margin-top:10px;"><strong>Tarea:</strong> ajusta 2 puntos del perfil según tu barrio/ciudad.</div>
+    `;
+  });
+
+  // Taller 3
+  const t3_btn = document.getElementById("t3_btn");
+  const t3_out = document.getElementById("t3_out");
+  t3_btn?.addEventListener("click", () => {
+    const negocio = document.getElementById("t3_negocio").value;
+    const canal = document.getElementById("t3_canal").value;
+    const objetivo = document.getElementById("t3_objetivo").value;
+    if (!requireFields(t3_out, [negocio, canal, objetivo])) return;
+
+    const hooks = {
+      "promoción": ["¡Hoy es un buen día para probar algo nuevo!", "Dale un gusto a tu día con…", "Tu mejor opción cerca de ti:"],
+      "lanzamiento": ["¡Llegó lo nuevo!", "Presentamos oficialmente…", "Atención, comunidad:"],
+      "descuento": ["¡Aprovecha antes que termine!", "Descuento por tiempo limitado:", "Oferta especial para ti:"]
+    };
+
+    const ctas = {
+      "Instagram": ["Escríbenos por DM", "Guarda este post", "Comparte con alguien que lo necesite"],
+      "Facebook": ["Déjanos un mensaje", "Comenta y pregunta", "Visítanos y comparte tu opinión"],
+      "WhatsApp": ["Responde a este mensaje", "Escríbenos “INFO”", "Agenda tu pedido ahora"]
+    };
+
+    const hook = hooks[objetivo].sort(()=>Math.random()-0.5)[0];
+    const cta = ctas[canal].sort(()=>Math.random()-0.5)[0];
+
+    t3_out.innerHTML = `
+      ✅ <strong>Contenido generado (simulación IA) — ${esc(canal)}:</strong>
+      <div style="margin-top:10px; padding:12px; border:1px dashed #cbd5e1; border-radius:10px;">
+        <strong>${esc(negocio)}</strong><br>
+        ${esc(hook)} <strong>${esc(negocio)}</strong> es ideal para ti.  
+        ${objetivo === "descuento" ? "Hoy tienes una oferta especial. " : ""}
+        ${objetivo === "lanzamiento" ? "Te invitamos a conocer nuestro lanzamiento. " : ""}
+        ${objetivo === "promoción" ? "Conoce nuestra propuesta y elige tu favorito. " : ""}
+        <br><br>
+        ✅ <strong>${esc(cta)}</strong>
+      </div>
+      <div style="margin-top:10px;"><strong>Tarea:</strong> edita el texto agregando ubicación y horario real.</div>
+    `;
+  });
+
+  // Taller 4
+  const t4_btn = document.getElementById("t4_btn");
+  const t4_out = document.getElementById("t4_out");
+  t4_btn?.addEventListener("click", () => {
+    const pregunta = document.getElementById("t4_pregunta").value;
+    if (!requireFields(t4_out, [pregunta])) return;
+
+    const p = pregunta.toLowerCase();
+    let respuesta = "Gracias por tu consulta. Con gusto te ayudamos. ¿Podrías darme un poco más de detalle?";
+
+    if (p.includes("horario") || p.includes("hora")) {
+      respuesta = "Nuestro horario es de lunes a sábado de 09h00 a 18h00. Si deseas, puedo confirmarte disponibilidad para hoy.";
+    } else if (p.includes("env") || p.includes("entrega") || p.includes("domicilio")) {
+      respuesta = "Sí, realizamos envíos. El costo depende de tu ubicación. Envíame tu sector/barrio y te confirmo el valor y el tiempo estimado.";
+    } else if (p.includes("precio") || p.includes("cuesta") || p.includes("valor")) {
+      respuesta = "Los precios varían según el producto/servicio. Indícame cuál te interesa y te envío la lista actualizada y promociones.";
+    } else if (p.includes("pago") || p.includes("transfer") || p.includes("tarjeta")) {
+      respuesta = "Aceptamos efectivo y transferencias. En algunos casos también tarjeta. Dime tu preferencia y te confirmo el método disponible.";
+    }
+
+    t4_out.innerHTML = `
+      ✅ <strong>Respuesta sugerida (simulación IA):</strong>
+      <div style="margin-top:10px; padding:12px; border:1px dashed #cbd5e1; border-radius:10px;">
+        ${esc(respuesta)}
+      </div>
+      <div style="margin-top:10px;"><strong>Tarea:</strong> adapta la respuesta con datos reales del negocio (horario, pagos, envíos).</div>
+    `;
+  });
+
+  // Taller 5
+  const t5_btn = document.getElementById("t5_btn");
+  const t5_out = document.getElementById("t5_out");
+  t5_btn?.addEventListener("click", () => {
+    const decision = document.getElementById("t5_decision").value;
+    const restriccion = document.getElementById("t5_restriccion").value;
+    if (!requireFields(t5_out, [decision, restriccion])) return;
+
+    const beneficios = [
+      "Posible aumento de ventas si el mensaje llega al público correcto",
+      "Mejor posicionamiento frente a competidores",
+      "Mayor claridad de oferta y propuesta de valor",
+      "Aumento de clientes recurrentes si se mejora la experiencia"
+    ].sort(()=>Math.random()-0.5).slice(0,3);
+
+    const riesgos = [
+      "Gasto sin retorno si no se define bien el público",
+      "Sobrecarga operativa si aumenta la demanda",
+      "Percepción negativa si la comunicación es confusa",
+      "Pérdida de margen si los costos suben"
+    ].sort(()=>Math.random()-0.5).slice(0,3);
+
+    const recomendacion = `Recomendación: aplica ${esc(decision)} en una prueba pequeña considerando "${esc(restriccion)}", mide resultados 7 días y ajusta.`;
+
+    t5_out.innerHTML = `
+      ✅ <strong>Análisis de escenarios (simulación IA):</strong>
+      <ul style="margin-top:10px;">
+        <li><strong>Decisión:</strong> ${esc(decision)}</li>
+        <li><strong>Restricción:</strong> ${esc(restriccion)}</li>
+      </ul>
+      <strong>Beneficios potenciales:</strong>
+      <ul>${beneficios.map(x=>`<li>${x}</li>`).join("")}</ul>
+      <strong>Riesgos potenciales:</strong>
+      <ul>${riesgos.map(x=>`<li>${x}</li>`).join("")}</ul>
+      <div style="margin-top:10px; padding:12px; border:1px dashed #cbd5e1; border-radius:10px;">
+        ${esc(recomendacion)}
+      </div>
+      <div style="margin-top:10px;"><strong>Tarea:</strong> define 2 indicadores para medir el resultado (ventas, leads, visitas, etc.).</div>
+    `;
+  });
+})();
+</script>
