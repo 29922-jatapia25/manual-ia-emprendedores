@@ -40,14 +40,17 @@ Haz clic en la imagen o en el enlace debajo de ella para ver el tutorial en YouT
 
 ### Guía para crear una cuenta en ChatGPT
 [![Cómo crear cuenta en ChatGPT](https://img.youtube.com/vi/n2R5qs9Bm5A/0.jpg)](https://www.youtube.com/watch?v=n2R5qs9Bm5A)
+
 [Ver video: Cómo crear cuenta en ChatGPT](https://www.youtube.com/watch?v=n2R5qs9Bm5A)
 
 ### Generación de imágenes con ChatGPT (DALL-E)
 [![Generar imágenes con ChatGPT](https://img.youtube.com/vi/aXGCwUCWSR4/0.jpg)](https://www.youtube.com/watch?v=aXGCwUCWSR4)
+
 [Ver video: Cómo generar imágenes](https://www.youtube.com/watch?v=aXGCwUCWSR4)
 
 ### Inteligencia Artificial aplicada al Marketing
 [![IA para Marketing](https://img.youtube.com/vi/659lsf8aCP4/0.jpg)](https://www.youtube.com/watch?v=659lsf8aCP4)
+
 [Ver video: IA para marketing](https://www.youtube.com/watch?v=659lsf8aCP4)
 
 ---
@@ -63,4 +66,5 @@ Haz clic en la imagen o en el enlace debajo de ella para ver el tutorial en YouT
 ## 6. Plantillas Descargables
 * [Checklist de Auditoría de IA (.pdf)](#) - *Próximamente*
 * [Guía de Estilo para Prompts (.docx)](#) - *Próximamente*
+
 
