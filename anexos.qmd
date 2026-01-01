@@ -1,0 +1,63 @@
+#  Anexos: Recursos y Herramientas Prácticas
+
+Este anexo es una caja de herramientas diseñada para que los emprendedores puedan pasar a la acción de inmediato. Aquí encontrarás guías rápidas, ejemplos listos para usar y material multimedia.
+
+---
+
+## 1. Glosario de IA para No Técnicos
+Para entenderse con la tecnología, primero hay que hablar su idioma:
+
+* **Prompt:** La instrucción o "pedido" que le das a la IA. Cuanto más claro sea, mejor será el resultado.
+* **IA Generativa:** Herramientas que pueden *crear* contenido nuevo (textos, imágenes, correos).
+* **Alucinación:** Cuando la IA inventa un dato con mucha seguridad. Siempre se debe verificar la información crítica.
+* **Tokens:** La forma en que la IA mide el texto. Piensa en ellos como "monedas" de procesamiento.
+
+---
+
+## 2. Directorio de Herramientas Imprescindibles
+| Herramienta | ¿Para qué sirve? | Costo |
+| :--- | :--- | :--- |
+| **ChatGPT / Claude** | Redacción, estrategia y análisis de datos. | Gratis / Pro |
+| **Perplexity AI** | Búsqueda de información con fuentes reales. | Gratis |
+| **Canva Magic Studio** | Diseño de posts y presentaciones con IA. | Freemium |
+| **ElevenLabs** | Creación de voces profesionales para videos. | Freemium |
+
+---
+
+## 3. Biblioteca de Prompts (Copiar y Pegar)
+Copia estos comandos y rellena los espacios entre corchetes `[]`:
+
+### Para Ventas:
+> "Actúa como un experto en ventas. Ayúdame a redactar un correo de seguimiento para un cliente que vio mi catálogo de [PRODUCTO] pero no ha respondido. Usa un tono persuasivo pero no insistente."
+
+### Para Redes Sociales:
+> "Genera un calendario de contenido de 7 días para Instagram sobre [TEMA DE TU NEGOCIO]. Incluye una idea de Reel, una frase motivadora y un post educativo."
+
+---
+
+## 4. Videotutoriales Seleccionados
+*Haz clic en la imagen o en el título para abrir el video en YouTube.*
+
+### 🔹 Cómo empezar con ChatGPT desde cero
+[![Introducción a ChatGPT](https://img.youtube.com/vi/o8pT0_D7vaw/0.jpg)](https://www.youtube.com/watch?v=o8pT0_D7vaw)
+*Tutorial básico para configurar tu cuenta y dar tus primeros pasos.*
+
+### 🔹 IA para Marketing de Pequeños Negocios
+[![IA para Marketing](https://img.youtube.com/vi/P69fP7V7-t0/0.jpg)](https://www.youtube.com/watch?v=P69fP7V7-t0)
+*Estrategias prácticas para usar herramientas gratuitas en tu publicidad.*
+
+> **Nota:** Sustituye los enlaces de arriba por los videos específicos que tú mismo grabes o selecciones para tu curso.
+
+---
+
+## 5. ✅ Checklist de Seguridad y Ética
+Antes de empezar, asegúrate de cumplir estos puntos:
+- [ ] **Privacidad:** Nunca subas nombres de clientes, DNIs o datos bancarios a la IA.
+- [ ] **Verificación:** Revisa siempre los datos numéricos y legales que la IA te entregue.
+- [ ] **Transparencia:** Si usas imágenes generadas por IA, es buena práctica mencionarlo si tu sector lo requiere.
+
+---
+
+## 6. 📄 Plantillas Descargables
+* [Checklist de Auditoría de IA (.pdf)](#) - *Próximamente*
+* [Guía de Estilo para Prompts (.docx)](#) - *Próximamente*
