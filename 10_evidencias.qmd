@@ -1,0 +1,17 @@
+# Evidencias del proyecto
+
+El presente manual constituye una evidencia tangible del proceso de vinculación y aprendizaje desarrollado en torno al uso de la Inteligencia Artificial aplicada al emprendimiento. A través de sus capítulos, se documenta de manera estructurada la comprensión teórica y práctica de la IA como herramienta de apoyo a la innovación empresarial.
+
+Como evidencia principal se presenta el **manual digital desarrollado con Quarto**, el cual integra contenidos conceptuales, ejemplos aplicados, herramientas de Inteligencia Artificial y recomendaciones estratégicas orientadas a emprendedores sin formación técnica previa. El diseño y estructura del documento permiten su fácil lectura, navegación y reutilización como material de consulta.
+
+Asimismo, se evidencian las siguientes actividades y productos académicos:
+
+- Análisis de los fundamentos de la Inteligencia Artificial y su impacto en los negocios.
+- Identificación y descripción de herramientas de IA aplicables a procesos reales de emprendimiento.
+- Desarrollo de ejemplos prácticos enfocados en modelo de negocio, marketing y toma de decisiones.
+- Implementación de buenas prácticas relacionadas con el uso responsable y ético de la IA.
+- Elaboración de contenido estructurado bajo estándares académicos y técnicos.
+
+Como evidencia complementaria, se cuenta con la **publicación del proyecto en un repositorio digital**, permitiendo su actualización, versionamiento y acceso abierto para la comunidad académica y emprendedora. Esto garantiza la trazabilidad del trabajo realizado y su aporte al proceso de vinculación con la sociedad.
+
+En conjunto, las evidencias presentadas demuestran el cumplimiento de los objetivos propuestos, así como el desarrollo de competencias digitales, analíticas y estratégicas, fortaleciendo la formación integral del emprendedor en el contexto de la transformación digital.
